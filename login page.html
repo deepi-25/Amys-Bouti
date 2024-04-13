@@ -1,69 +1,43 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
     <style>
         body {
-            background-image: url('img1.jpg');
-            background-size: cover;
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+          background-image: url('img1.jpg');
         }
-        .container {
-            background: rgba(255, 255, 255, 0.8);
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        .center {
-            max-width: 300px;
-            margin: auto;
-        }
-        input[type="text"], input[type="password"], input[type="submit"] {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-        }
-        a {
-            color: blue;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
-<body>
+        </style>
+  </head>
+  <body>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
     <div class="container">
-        <div class="center">
-            <h1>Login</h1>
-            <form action="last-page.html" method="GET">
-                <div>
-                    <input type="text" name="username" required>
-                    <label>Username</label>
-                </div>
-                <div>
-                    <input type="password" name="password" required>
-                    <label>Password</label>
-                </div>
-                <div>
-                    <a href="reset_password.html">Forgot Password?</a>
-                </div>
-                <div>
-                    <input type="submit" value="Login">
-                </div>
-                <div>
-                    Not a Member? <a href="signup.html">Signup</a>
-                </div>
-            </form>
-        </div>
+      <div class="center">
+        <h1 style="text-align:center;">Login</h1>
+          <form action="last page.html" method="POST">
+              <div style="text-align:center;"class="txt_field">
+                  <input type="text" name="text" required>
+                  <span></span>
+                  <label>Username</label>
+              </div>
+              <div style="text-align:center;" class="txt_field">
+                  <input type="password" name="password" required>
+                  <span></span>
+                  <label>Password</label>
+              </div>
+              <div style="text-align:center;" class="pass">Forget Password?</div>
+              <div style="text-align:center;">
+              <input name="submit" type="Submit" value="Login" >
+              </div>
+               <div style="text-align:center;"class="signup_link">
+                  Not a Member ? <a href="sign in page.html">Signup</a>
+              </div>
+          </form>
+      </div>
     </div>
-</body>
+  </body>
 </html>
