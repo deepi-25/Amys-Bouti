@@ -19,12 +19,19 @@
 <body>
     <div class="container">
         <div class="center">
-            <h1 style="text-align: center;">Login</h1>
-            <form action="last page.html" method="POST">
-                <div class="txt_field" style="text-align: center;">
-                    <input type="text" name="username" required>
-                    <label for="username">Username</label>
-                </div>
+           <button onclick="lastpage();">Login</button>
+      <script>
+
+        function lastpage() {
+        
+        // Redirect to the last page when the "Sign Up" button is clicked
+        
+        window.location.href = 'last page.html';
+        
+        }
+        
+        </script>
+
                 <div class="txt_field" style="text-align: center;">
                     <input type="password" name="password" required>
                     <label for="password">Password</label>
